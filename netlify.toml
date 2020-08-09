@@ -1,2 +1,7 @@
 [build]
-command = “CI= npm run build”
+  publish = "dist"
+  command = "npm run build"
+[dev]
+  command = "yarn dev"
+  port = 8080
+  publish = "dist"
