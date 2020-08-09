@@ -1,7 +1,0 @@
-[build]
-  publish = "dist"
-  command = "CI= npm run build"
-[dev]
-  command = "yarn dev"
-  port = 8080
-  publish = "dist"
